@@ -1,0 +1,22 @@
+# ninja log v5
+1	149	6868475197525995	build.ninja	80449c7eccfbe620
+0	354	6868475010884484	CMakeFiles/DLinkList.dir/DLinkList.cpp.obj	422f6ee09686d5b2
+3	297	6868484367777130	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+298	433	6868484369097427	DLinkList.exe	bb410eaf10c17c98
+3	293	6868484606938336	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+293	429	6868484608268649	DLinkList.exe	bb410eaf10c17c98
+3	290	6868485074192021	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+291	422	6868485075482313	DLinkList.exe	bb410eaf10c17c98
+9	333	6868490387473256	CMakeFiles/DLinkList.dir/DLinkList.cpp.obj	422f6ee09686d5b2
+4	341	6868490387553263	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+341	486	6868490388973601	DLinkList.exe	bb410eaf10c17c98
+2	293	6868497779295902	CMakeFiles/DLinkList.dir/DLinkList.cpp.obj	422f6ee09686d5b2
+8	295	6868497779315894	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+295	427	6868497780606185	DLinkList.exe	bb410eaf10c17c98
+3	284	6868500622043501	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+285	411	6868500623283780	DLinkList.exe	bb410eaf10c17c98
+3	301	6868504793094389	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+301	438	6868504794444694	DLinkList.exe	bb410eaf10c17c98
+3	298	6868506970289445	CMakeFiles/DLinkList.dir/DeleteFirstX.cpp.obj	1080efcc4ac0497f
+9	300	6868506970299449	CMakeFiles/DLinkList.dir/DLinkList.cpp.obj	422f6ee09686d5b2
+300	440	6868506971679759	DLinkList.exe	bb410eaf10c17c98
