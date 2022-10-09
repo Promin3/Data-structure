@@ -1,0 +1,3 @@
+E:/ClionWorkSpace/polynome/cmake-build-debug/CMakeFiles/polynome.dir
+E:/ClionWorkSpace/polynome/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ClionWorkSpace/polynome/cmake-build-debug/CMakeFiles/rebuild_cache.dir
