@@ -1,0 +1,6 @@
+# ninja log v5
+0	292	6872165196300076	CMakeFiles/LinkStack.dir/LinkStack.cpp.obj	fc8da759d7b09a52
+5	300	6872165196380093	CMakeFiles/LinkStack.dir/rearStack.cpp.obj	24810db707ef5f7c
+300	421	6872165197570362	LinkStack.exe	694b99e20d2f0059
+3	290	6872165306696297	CMakeFiles/LinkStack.dir/rearStack.cpp.obj	24810db707ef5f7c
+291	411	6872165307886564	LinkStack.exe	694b99e20d2f0059

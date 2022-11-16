@@ -1,0 +1,9 @@
+# ninja log v5
+8	378	6868505391753992	CMakeFiles/LinkList.dir/Middle.cpp.obj	924f59614fee51ad
+0	139	6872549907719780	build.ninja	338921f1e92e410c
+3	374	6868505391703977	CMakeFiles/LinkList.dir/Middle2.cpp.obj	8b926d15ad62aafe
+12	375	6868505391703977	CMakeFiles/LinkList.dir/LinkList.cpp.obj	b2bd79172532f9b7
+284	418	6868506046249585	LinkList.exe	d594247ce2e23d6e
+16	384	6868505391814005	CMakeFiles/LinkList.dir/Reverse1.cpp.obj	62884ef0bb37185b
+3	277	6867473922987021	CMakeFiles/LinkList.dir/main.cpp.obj	1f5a77cd733103cb
+2	283	6868506044919278	CMakeFiles/LinkList.dir/commnodes.cpp.obj	19feda4b6c001420

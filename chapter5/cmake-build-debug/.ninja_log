@@ -1,0 +1,14 @@
+# ninja log v5
+0	124	6894217621043687	build.ninja	fb33a63316362a1b
+3	136	6891457222411930	CMakeFiles/chapter5.dir/question5.cpp.obj	a95032c93c77ab58
+8	280	6890170144409810	CMakeFiles/chapter5.dir/one_algorithm.cpp.obj	c6b5801950327bcf
+345	489	6892607660078147	chapter5.exe	6126ab6b6b3ae5f3
+3	55	6891500485924054	CMakeFiles/chapter5.dir/chapter6_q1.cpp.obj	800b52e1fb543c55
+3	279	6890170144389800	CMakeFiles/chapter5.dir/question2.cpp.obj	e9908c50ae11c7b9
+4	60	6890240713142864	CMakeFiles/chapter5.dir/question3.cpp.obj	aa3513ad8d271649
+8	58	6890248603380940	CMakeFiles/chapter5.dir/question4.cpp.obj	8a35ad7a03f3c82d
+3	58	6891488069181910	CMakeFiles/chapter5.dir/chapter6_question2.cpp.obj	b0cdd213094c577
+8	62	6891521862439892	CMakeFiles/chapter5.dir/chapter6_q5.cpp.obj	4860a078955322f2
+9	344	6892607658657518	CMakeFiles/chapter5.dir/chapter6_q3.cpp.obj	b424d59b909dff4d
+3	55	6891535907855115	CMakeFiles/chapter5.dir/chapter6_q2.cpp.obj	8c0b98016cb30da3
+3	73	6892607655945004	CMakeFiles/chapter5.dir/chapter6_q4.cpp.obj	d37852703b8bf603

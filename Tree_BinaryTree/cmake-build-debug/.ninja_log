@@ -1,0 +1,15 @@
+# ninja log v5
+8	390	6890906149123252	CMakeFiles/Tree_BinaryTree.dir/test.cpp.obj	7d36ec9acae03b3c
+372	504	6890950539019200	Tree_BinaryTree.exe	56ed0593394fb1c8
+7	484	6894269249457581	CMakeFiles/Tree_BinaryTree.dir/BTree.cpp.obj	91f0e723e454ce4e
+16	485	6894269249457581	CMakeFiles/Tree_BinaryTree.dir/kcount3.cpp.obj	124f45aeb1224dfc
+2	486	6894269249457581	CMakeFiles/Tree_BinaryTree.dir/kcount2.cpp.obj	53bd99ff7956a51c
+11	527	6894269249887668	CMakeFiles/Tree_BinaryTree.dir/kcount1.cpp.obj	75ce09c8ad1794e
+27	188	6896673395600143	CMakeFiles/Tree_BinaryTree.dir/HuffmanTree.cpp.obj	a38e60a5696b54af
+53	156	6896673395310081	CMakeFiles/Tree_BinaryTree.dir/q2.cpp.obj	abfab5fb66c70f35
+45	529	6896673399050919	CMakeFiles/Tree_BinaryTree.dir/HDU1232.cpp.obj	8ea9a60f52a9c451
+19	653	6896673400291203	CMakeFiles/Tree_BinaryTree.dir/ThreadTree.cpp.obj	c0807c57ea75044e
+62	704	6896673400771307	CMakeFiles/Tree_BinaryTree.dir/q3.cpp.obj	39412d6552436381
+12	716	6896673400891337	CMakeFiles/Tree_BinaryTree.dir/CreateBTree1.cpp.obj	e37f09d745745312
+4	737	6896673401101492	CMakeFiles/Tree_BinaryTree.dir/CreateBTree2.cpp.obj	91e781773834cd3c
+4	91	6896673609016782	CMakeFiles/Tree_BinaryTree.dir/q1.cpp.obj	9623c7a54e8d929f

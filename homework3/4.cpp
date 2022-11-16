@@ -1,0 +1,84 @@
+//
+// Created by 朱俊杰 on 2022/10/12.
+//
+
+//d 循环除 r, 用stack存储余数，最后取出
+
+#include <iostream>
+
+using namespace std;
+const int MaxSize = 100;
+
+template<typename T>
+class SqStack            //顺序栈类模板
+{
+public:
+    T *data;            //存放栈中元素
+    int top;            //栈顶指针
+    //栈的基本运算算法
+
+    SqStack()            //构造函数
+    {
+        data = new T[MaxSize];    //为data分配容量为MaxSize的空间
+        top = -1;            //栈顶指针初始化
+    }
+
+    ~SqStack()            //析构函数
+    {
+        delete[] data;
+    }
+
+    bool empty()            //判断栈是否为空
+    {
+        return top == -1;
+    }
+
+    bool push(T e)            //进栈算法
+    {
+        if (top == MaxSize - 1)    //栈满时返回false
+            return false;
+        top++;            //栈顶指针增1
+        data[top] = e;        //将e进栈
+        return true;
+    }
+
+    bool pop(T &e)            //出栈算法
+    {
+        if (empty())        //栈为空的情况，即栈下溢出
+            return false;
+        e = data[top];        //取栈顶指针元素的元素
+        top--;            //栈顶指针减1
+        return true;
+    }
+
+    bool gettop(T &e)        //取栈顶元素算法
+    {
+        if (empty())        //栈为空的情况，即栈下溢出
+            return false;
+        e = data[top];        //取栈顶指针位置的元素
+        return true;
+    }
+
+};
+
+string to_r(int d, int r) {
+    SqStack<string> stack;
+    string str;
+    while (d != 0) {
+        int yushu = d % r;
+        d = d / r;
+        stack.push(to_string(yushu));
+    }
+    while (!stack.empty()) {
+        string e;
+        stack.pop(e);
+        str += e;
+    }
+    return str;
+}
+
+int main() {
+    int d = 31, r = 2;
+    cout << to_r(d, r);
+    return 0;
+}

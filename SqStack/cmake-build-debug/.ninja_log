@@ -1,0 +1,4 @@
+# ninja log v5
+3	296	6872153750597535	CMakeFiles/SqStack.dir/SqStack.cpp.obj	67717a693fc6a40d
+309	443	6872153752047860	SqStack.exe	37f10b624b1a40f2
+7	309	6872153750727563	CMakeFiles/SqStack.dir/isMatch.cpp.obj	37696fed3bb3260b
