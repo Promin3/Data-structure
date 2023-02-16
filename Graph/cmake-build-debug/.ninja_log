@@ -1,0 +1,11 @@
+# ninja log v5
+4	458	1675234595596311020	CMakeFiles/Graph.dir/main.cpp.o	8c447ad0569f4041
+5	401	1675324426827010858	CMakeFiles/Graph.dir/BFS.cpp.o	6d5c8d7f728d8065
+4	457	1675234595596311145	CMakeFiles/Graph.dir/MatGraph.cpp.o	23ba0c7bdc69f874
+5	369	1675324426795179805	CMakeFiles/Graph.dir/DFS.cpp.o	bc8f66a1ed7a2d9d
+220	258	1675234623678901217	Graph	38b66c2da1505fa2
+5	355	1675324426779874331	CMakeFiles/Graph.dir/AdjGraph.cpp.o	53692aced385c855
+4	220	1675234623639620224	CMakeFiles/Graph.dir/problem8_2.cpp.o	2659555776343a14
+5	365	1675324426790979911	CMakeFiles/Graph.dir/problem8_4.cpp.o	cc6eb3a5be3850f5
+5	370	1675324426796683948	CMakeFiles/Graph.dir/problem8_3.cpp.o	b2a0999495edcd17
+6	366	1675324426791349947	CMakeFiles/Graph.dir/problem8_5.cpp.o	a04a9cdea23429f5
