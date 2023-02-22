@@ -1,0 +1,187 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Sort
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/kevin/CLionProjects/Sort/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Sort
+
+
+#############################################
+# Order-only phony target for Sort
+
+build cmake_object_order_depends_target_Sort: phony || CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/main.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/main.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/InsertSort.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/InsertSort.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/InsertSort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/BinInsertSort.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/BinInsertSort.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/BinInsertSort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/shellSort.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/shellSort.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/shellSort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/BubbleSort.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/BubbleSort.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/BubbleSort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/selectSort.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/selectSort.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/selectSort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/shiftDown.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/shiftDown.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/shiftDown.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/heapSort.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/heapSort.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/heapSort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+build CMakeFiles/Sort.dir/Heap.cpp.o: CXX_COMPILER__Sort_Debug /Users/kevin/CLionProjects/Sort/Heap.cpp || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/Heap.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sort
+
+
+#############################################
+# Link the executable Sort
+
+build Sort: CXX_EXECUTABLE_LINKER__Sort_Debug CMakeFiles/Sort.dir/main.cpp.o CMakeFiles/Sort.dir/InsertSort.cpp.o CMakeFiles/Sort.dir/BinInsertSort.cpp.o CMakeFiles/Sort.dir/shellSort.cpp.o CMakeFiles/Sort.dir/BubbleSort.cpp.o CMakeFiles/Sort.dir/selectSort.cpp.o CMakeFiles/Sort.dir/shiftDown.cpp.o CMakeFiles/Sort.dir/heapSort.cpp.o CMakeFiles/Sort.dir/Heap.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Sort
+  TARGET_PDB = Sort.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/kevin/CLionProjects/Sort/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/kevin/CLionProjects/Sort/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kevin/CLionProjects/Sort -B/Users/kevin/CLionProjects/Sort/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/kevin/CLionProjects/Sort/cmake-build-debug
+
+build all: phony Sort
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/kevin/CLionProjects/Sort/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/kevin/CLionProjects/Sort/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
